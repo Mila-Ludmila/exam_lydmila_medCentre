@@ -1,0 +1,15 @@
+.wrap{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0;
+  
+  z-index: 10;
+  background-color: lightgray;
+}
+.footerContainer{
+  height: max-content;
+  width: 100%;
+  padding: 22.5px 15px;
+ 
+  text-align: center;
+}

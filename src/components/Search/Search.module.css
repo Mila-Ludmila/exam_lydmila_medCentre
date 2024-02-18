@@ -1,0 +1,23 @@
+.wrap {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin: auto 0;
+  margin: -45px 0;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: flex-start;
+}
+.searchWrap {
+  display: flex;
+  gap: 5px;
+}
+
+.big {
+  font-size: 100px;
+}
+
+.small {
+  font-size: 40px;
+}

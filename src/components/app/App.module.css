@@ -1,0 +1,86 @@
+body[data-theme="dark"] {
+  background-color: #000;
+  color: #fff;
+}
+
+.wrap {
+  display: grid;
+}
+.wrap .doc{
+  background: rgb(220, 255, 247);
+}
+.item {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  cursor: pointer;
+}
+.item.open {
+  font-weight: bold;
+  color: rgb(2, 46, 63);
+}
+.itemTitle {
+  font-weight: bold;
+  border-bottom: 2px solid;
+}
+
+.item > p {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.pag {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+.pag span {
+  border: 1px solid;
+  padding: 2px 6px;
+  cursor: pointer;
+}
+.pag span.active {
+  background-color: black;
+  color: white;
+}
+
+.dark {
+  background-color: #000;
+  color: #fff;
+}
+.dark * {
+  color: #fff;
+}
+
+.wrapBtn {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: stretch;
+  gap: 5px;
+  margin: 5px 0;
+}
+
+.btn {
+  background-color: green;
+  color: white;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  background-color: rgb(47, 165, 47);
+  color: #e22b2b;
+  text-shadow: rgb(244, 243, 240) 1px 0 10px;
+  border-radius: 4px;
+}
+
+.theme{
+  display: flex;
+    justify-content: flex-start;
+    align-content: stretch;
+    align-items: stretch;
+}

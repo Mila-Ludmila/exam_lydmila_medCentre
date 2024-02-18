@@ -1,0 +1,11 @@
+.theme  {
+  display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    margin-top: -20px;
+}
+
+.theme .dark {
+  background: black;
+  color: white;
+}

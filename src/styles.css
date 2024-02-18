@@ -1,0 +1,26 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+@import 'bootstrap/dist/css/bootstrap.min.css';
+:root{
+  --body-bg: white;
+  --header-bg: lightgray;
+}
+:root[theme='dark']{
+  --body-bg: black;
+  --header-bg: #363636;
+}
+
+body{
+  background-color: var(--body-bg);
+}
+header{
+  background-color: var(--header-bg)
+}
+input[data-theme='dark'], input[data-theme='dark']:focus{
+  background-color: rgb(8, 161, 238);
+  color: rgb(75, 73, 73);
+  border: rgb(29, 243, 9) 1px solid;
+  }
+  input[data-theme='dark']::placeholder{
+    color: rgb(237, 244, 240) ;
+    }

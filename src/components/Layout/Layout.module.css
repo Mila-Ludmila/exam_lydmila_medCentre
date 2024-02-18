@@ -1,0 +1,48 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  gap: 50px 20px;
+  justify-content: space-around;
+  align-items: stretch;
+  align-content: space-around;
+  margin-top: 110px;
+}
+
+.borderDiv {
+  width: 250px;
+  height: 300px;
+  border: 1px grey solid;
+  border-radius: 5px;
+  padding: 15px 10px;
+  background-color: rgb(220, 255, 247);
+  box-shadow: 8px 10px 10px 5px rgb(76, 75, 75);
+}
+
+
+.borderDiv p{
+ color: rgb(2, 87, 3);
+ text-shadow: 1px 0px rgb(10, 10, 10);
+}
+
+.logoDoctor {
+  height: 125px;
+  width: 125px;
+  border-radius: 50%;
+  margin-left: 18%;
+}
+
+.wrapBox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: stretch;
+  gap: 5px;
+  margin: 44px 0;
+}
+
+.btn {
+  background: gray;
+  color: white;
+  border-radius: 4px;
+}

@@ -1,0 +1,28 @@
+.wrap {
+  display: flex;
+  flex-direction: row;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: lightgray;
+}
+.containerHeader {
+  height: max-content;
+  width: 100%;
+  padding: 0px 15px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.headerTitle {
+  display: inline-block;
+  color: green;
+  font-weight: bold;
+}
+.headerIcon {
+  margin-left: 25px;
+  height: 30px;
+  width: 30px;
+  vertical-align: sub;
+  fill: rgb(6, 176, 6);
+}
